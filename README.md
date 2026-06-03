@@ -12,8 +12,9 @@ INSERT INTO `acore_world`.playercreateinfo VALUES (3, 8, 0, 1, -6240.32, 331.033
 INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 0, 6603, 0);
 INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 1, 133, 0);
 INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 2, 168, 0);
+INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 3, 2481, 0);
 INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 10, 159, 128);
-INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 4, 2481, 0);
+INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 11, 4540, 128);
 ```
 
 ### Client-side Patch
