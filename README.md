@@ -15,6 +15,9 @@ INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 2, 168, 0);
 INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 3, 2481, 0);
 INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 10, 159, 128);
 INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 11, 4540, 128);
+
+# Fix starting quest to allow dwarves to accept quest to see class trainer
+UPDATE `acore_world`.quest_template SET AllowableRaces = 68 WHERE ID = 3114;
 ```
 
 ### Client-side Patch
