@@ -17,6 +17,8 @@ INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 10, 159, 128);
 INSERT INTO `acore_world`.playercreateinfo_action VALUES (3, 8, 11, 4540, 128);
 
 # Fix starting quest to allow dwarves to accept quest to see class trainer
+# this assumes that "Glyphic Memorandum" is quest 3114 in your database.
+# Verify that this is the correct quest before running this update.
 UPDATE `acore_world`.quest_template SET AllowableRaces = 68 WHERE ID = 3114;
 ```
 
